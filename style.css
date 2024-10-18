@@ -3,7 +3,6 @@
 }
 
 header{
-    background-color: #d53a3f;
     display: flex;
     height: 80px;
 }
@@ -14,6 +13,41 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 70px;
-    margin-top: 30px;
+    margin: 0 75px;
+    margin-top: 35px;
+}
+
+body {
+    background-color: #e61d2b;
+}
+
+.coca-cola {
+    width: 68%;
+    display: flex;
+    position: absolute;
+    top: 19%;
+    left: 17%;
+}
+
+.coca-cola img{
+    color: azure;
+    filter: drop-shadow(0 0 90px rgb(134, 27, 31));
+}
+
+.garrafa-coca{
+    width: 10.5%;
+    right: 42%;
+    display: flex;
+    position: absolute;
+
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    width: 15%;
+    position: absolute;
+    top: 35%;
+    left: 33.5%;
 }
